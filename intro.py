@@ -4,7 +4,7 @@ st.title("first streamlit application")
 st.header("_Streamlit_ is :blue[cool] :sunglasses:")
 st.write("Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps - so let's get started!")
 
-agree = st.checkbox("I agree with kashish")
+agree = st.checkbox("I agree with Vikash")
 
 if agree:
     st.write("Great!")  
