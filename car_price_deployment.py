@@ -6,7 +6,7 @@ import streamlit as st
 st.title("Car Price Predictor")
 
 st.write(
-    "Enter the details of the car to estimate its price."
+    "Enter the details of the car to estimate its price"
 )
 
 model=joblib.load("car_price_model.joblib")
